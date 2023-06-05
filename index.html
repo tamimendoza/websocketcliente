@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente Web Socket</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@stomp/stompjs@5.0.0/bundles/stomp.umd.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="mensajes" class="container">
+            <ul id="ULMensajes" class="list-group"></ul>
+        </div>
+        <div class="container">
+            <input id="txtNombre" type="text" class="form-control" placeholder="Nombre">
+            <input id="txtMensaje" type="text" class="form-control" placeholder="Mensaje">
+            <button id="btnEnviar" class="btn btn-primary">Enviar</button>
+        </div>
+    </div>
+</body>
+</html>
